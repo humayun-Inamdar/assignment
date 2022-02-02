@@ -1,0 +1,10 @@
+<p>
+    <mat-toolbar>
+    <span>LOGO</span>
+    <div class="header-menu-container">
+        <div *ngIf="router.url != '/login'" class="header-list"  routerLink="/analytics"> Analyst </div>
+        <div *ngIf="router.url != '/login'" class="header-list"  routerLink="/contact"> Contact us </div>
+        <div *ngIf="router.url != '/login'" class="header-list"  routerLink="/login"> <mat-icon class="user-logout">exit_to_app</mat-icon> </div>
+    </div>
+  </mat-toolbar>
+  </p>

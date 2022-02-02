@@ -1,0 +1,13 @@
+.header-menu-container{
+    display: flex;
+    flex: auto;
+    justify-content: end;
+}
+.header-list{
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+.user-logout{
+    margin: 4px 0 0 0;
+}

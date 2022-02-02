@@ -1,0 +1,12 @@
+#chartdiv{
+    width: 50%;
+    margin: 35px auto 0;
+    height: 500px;
+}
+.datepicker-row{
+    width: 47%;
+    margin: auto;
+}
+mat-form-field {
+    margin-right: 12px;
+  }
